@@ -9,4 +9,6 @@ func Run() {
 	fmt.Println("Running the server!")
 
 	assets.GetNested()
+
+	assets.GetFallbackImage()
 }
